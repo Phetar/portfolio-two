@@ -1,0 +1,173 @@
+*{margin: 0px 0px;
+padding: 0px 0px;
+box-sizing: border-box;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: none;}
+
+#header{align-items: center;
+justify-content: space-around;
+display: flex;
+background-color: #1f2235;
+font-size: 20px;
+padding-top: 0px;
+padding-bottom: 0px;
+position: sticky;}
+
+#brand{padding-right: 280px;}
+
+.navitem{
+    padding-left: 20px;
+}
+
+#navitem a{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    text-shadow: 0px;
+    display: flex;
+}
+
+.social-Icon {
+    color: aliceblue;
+    margin-bottom: 80px;
+    font-size: 24px;
+    border: solid #fe4956;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    padding-top: 10px;
+    margin-right: 50px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#iconCards:hover{
+    color: #fe4956;
+}
+
+#intro{
+    justify-content: start;
+}
+
+.pinktxt{
+    color: #fe4956;
+}
+
+.horizontal{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+}
+
+.navitem a:hover{ color:#fe4956;}
+
+.bio-profile{ width: 100%;
+align-items: center;
+display: flex;
+padding: 5% 5% 5% 5%;
+font-size: smaller;
+text-align: center;
+}
+
+#home-sect{background-color:#24263b;
+display: flex;
+align-items: center;
+padding: 20px;
+margin-top: 0px;
+}
+
+#service{
+    background-color: #1f2235;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.amike-man{
+    width: 400px;
+}
+
+#port{
+    height: 40px;
+    width: 150px;
+    border: #fe4956 solid 2px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color:#24263b;
+}
+
+.port:hover{
+    color: #fe4956;
+}
+
+#play{
+    background-color: #fe4956;
+    border: #fe4956 solid 2px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+}
+header img{
+    width: 170px;
+}
+
+#servicebody{
+    padding-top: 100px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardSet{
+display: flex;
+margin-left: 30px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    padding-top: 50px;
+    background-color:#24263b;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+
+
+.card:hover{
+    background-color: #fe4956;
+}
+
+.spin {
+    font-size: 2em;
+  }
+  .spin:hover{
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+.cardicon{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#buttons{
+    display: flex;
+}
